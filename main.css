@@ -1,0 +1,68 @@
+body  {
+    background-color: #eeeeee;
+    font-family: Consolas, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.colourOption:hover {
+    scale: 1.25;
+}
+
+#colourSelector {
+    column-gap: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+#outerContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#outputContainer {
+    background-color: #000;
+    flex: 1;
+    overflow: auto;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.selected {
+    scale: 1.3;
+}
+
+#submit {
+    background-color: #ffffff60;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+}
+#submit:hover {
+    scale: 1.1;
+}
+
+#textEntry {
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #ffffff50;
+}
+
+#userEntryContainer {
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}

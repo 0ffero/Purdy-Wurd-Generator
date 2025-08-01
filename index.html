@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Sure Speak Purdy Wurds</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="App.js" defer></script>
+</head>
+<body>
+    <div id="outerContainer">
+        <div id="userEntryContainer">
+            <h1>Purdy Wurd Generator</h1>
+            <p>Enter your text below</p>
+            <input id="textEntry" max-length="16"></input>
+            <br>
+            <div id="title">Select wurd colour</div>
+            <div id="colourSelector">
+                <div id="red"    class="colourOption selected" onclick="vars.setColour(this)">🟥</div>
+                <div id="blue"   class="colourOption" onclick="vars.setColour(this)">🟦</div>
+                <div id="orange" class="colourOption" onclick="vars.setColour(this)">🟧</div>
+                <div id="yellow" class="colourOption" onclick="vars.setColour(this)">🟨</div>
+                <div id="green"  class="colourOption" onclick="vars.setColour(this)">🟩</div>
+                <div id="pink"   class="colourOption" onclick="vars.setColour(this)">🟪</div>
+                <div id="brown"  class="colourOption" onclick="vars.setColour(this)">🟫</div>
+            </div>
+            <div id="submit">Do that thang!</div>
+        </div>
+        <div id="outputContainer">
+
+        </div>
+    </div>
+</body>
+</html>
